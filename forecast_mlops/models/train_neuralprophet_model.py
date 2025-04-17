@@ -135,7 +135,7 @@ def objective(
     )
 
     buses = pd.read_csv(
-        os.path.join(BASE_DIR, 'demand_hourly.csv')
+        os.path.join(BASE_DIR, 'reference', 'demand_hourly.csv')
     )
     buses[c.TIMESTAMP] = pd.to_datetime(buses[c.TIMESTAMP])
 
