@@ -31,7 +31,6 @@ PARAM_BOUNDS = {
     "daily_seasonality": [True, False],
     "weekly_seasonality": [True, False],
     "yearly_seasonality": [True, False],
-    # "growth": ["off", "linear"],
     "growth": ["off"],
     "country_holidays": [None, "US"],
     "ar_reg": [0.0001, 1],
