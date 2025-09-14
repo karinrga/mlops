@@ -1,7 +1,7 @@
 defaults:
   - _self_
   - MLFlow.yaml
-tracking_uri: mlruns
+tracking_uri: "http://127.0.0.1:8080"
 track_dict:
   code: &dict_code
     name: code
