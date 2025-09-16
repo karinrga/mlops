@@ -80,7 +80,7 @@ f1 = f1_score(y_test, y_pred, average='weighted')
 mlflow.set_tracking_uri(uri="http://127.0.0.1:8080")
 
 # Create a new MLflow Experiment
-mlflow.set_experiment("MLflow_test")
+mlflow.set_experiment("MLflow_Logistic_Regression")
 
 # Start an MLflow run
 with mlflow.start_run():
