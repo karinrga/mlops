@@ -24,8 +24,7 @@ with body:
 
     with col1:
         st.write(c.info['brief'])
-  
-        st.markdown(f"📊 Data + 🧠 ML + ⚙️ DevOps = 🚀 MLOps")
+        st.markdown("📊 Data + 🧠 ML + ⚙️ DevOps = 🚀 MLOps")
 
     with col3:
         st.image("images/mlops_cycle.png", width=360)
@@ -43,7 +42,7 @@ with body:
     )
     st.markdown("<br>", unsafe_allow_html=True)
     st.subheader("🔄 MLOps Tools", divider='rainbow')
-    
+
     st.markdown(
         f"""
         - **MLflow**: {c.info['mlflow']}
@@ -64,7 +63,7 @@ with body:
         current_benefit = 'benefit'
 
     def benefit_tab(benefits):
-        rows, cols= len(benefits)//c.benefit_col_size, c.benefit_col_size
+        rows = len(benefits)//c.benefit_col_size
         benefits_iter = iter(benefits)
         if len(benefits) % c.benefit_col_size != 0:
             rows += 1
