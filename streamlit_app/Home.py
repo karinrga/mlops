@@ -18,7 +18,7 @@ with body:
     with st.sidebar:
         st.success("Select a page above.")
 
-    st.header("♾️ What is MLOps?", divider='rainbow')
+    st.header("🔄 What is MLOps?", divider='rainbow')
 
     col1, col2, col3 = st.columns([2, 0.2, 1.5])
 
@@ -41,7 +41,7 @@ with body:
         """
     )
     st.markdown("<br>", unsafe_allow_html=True)
-    st.subheader("🔄 MLOps Tools", divider='rainbow')
+    st.header("♾️ MLOps Tools", divider='rainbow')
 
     st.markdown(
         f"""
