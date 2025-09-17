@@ -64,7 +64,7 @@ mlflow_facts = {
     'definition': "an open-source platform to manage the ML lifecycle.",
     'tracking': "Allows you to track experiments to record and compare "
     "parameters and results.",
-    'model': "Allow you to manage and deploy models from various ML libraries"
+    'model': "Allows you to manage and deploy models from various ML libraries"
     "to various model serving and inference platforms.",
     'model_registry': "Allows you to manage the model deployment process "
     "from staging to production, with model versioning and annotation.",
