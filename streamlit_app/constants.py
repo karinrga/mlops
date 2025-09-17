@@ -51,6 +51,13 @@ databricks_facts = {
     'devops': "Access control and versioning",
     'dataops': "Store data in a lakehouse architecture using Delta tables",
     'modelops': "Use MLflow to track experiments, models, and deployments",
+    'best_practices': """
+        Create separate environments for the different stages of ML code and
+        model development
+        - Development
+        - Staging
+        - Production
+        """
 }
 
 mlflow_facts = {
